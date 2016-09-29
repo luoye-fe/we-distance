@@ -40,7 +40,6 @@ module.exports = {
 	entry: {
 		app: path.join(__dirname, './src/js/app.js')
 	},
-	devtool: '#eval-source-map',
 	output: {
 		path: path.join(__dirname, './dist/js/'),
 		filename: '[name].js'
